@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Allura');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+#u13220-4 {
+font-family: 'Allura', cursive;
+ background-color:#CF1F3E;
+ text-align:center;
+ color:white;
+ padding-top:15px;
+ margin-top: 0;
+  font-size: 61px;
+}
+
+#u13220-44 {
+font-family: 'Allura', cursive;
+
+  text-align:center;
+  color:#C5A875;
+   font-size: 61px;
+ }
+
+#u413-4 {
+  font-size: 24px;
+font-family: 'Lato', sans-serif;
+ }
+
+ #u471-2 {
+font-family: 'Allura', cursive;
+   color:#C5A875;
+   text-align:center;
+   padding-top:15px;
+   margin-top: 0;
+    font-size: 70px;
+
+
+  }
+
+  #u12339-1 {
+  color:red;
+   }
+
+   #u12339-4 {
+   color:#C5A875;
+    }
+
+    #u12339-45 {
+   color:#C5A875;
+   font-size:40px;
+font-family: 'Allura', cursive;
+    }
+
+  #u12339-2 {
+font-family: 'Allura', cursive;
+  color:red;
+   font-size: 40px;
+   }
+
+
+  #u2008-15 {
+   padding-top:20px;
+   background-color: transparent;
+   color: #5F5F5F;
+   line-height: 24px;
+   font-size: 20px;
+   font-family: 'Lato', sans-serif;
+
+   }
+
+   #bbton{
+     color: #C5A875;
+     background-color: #ffffff;
+     border-color: #C5A875;
+   }
+
+
+   .ribbon {
+    background: #CF1F3E;
+    height: 87px;
+    margin: 0 auto;
+    position: absolute;
+    border-style: double;
+    width: 72px;
+    left:10px;
+    top:0px;
+    text-align:center;
+    vertical-align:middle;
+    line-height:87px;
+    font-size:12px;
+    color:white;
+}
+.ribbon:after,
+.ribbon:before {
+    content: '';
+    position: absolute;
+    border-top: 20px solid #CF1F3E;
+    height: 0;
+    width: 0;
+
+    top: 100%;
+}
+.ribbon:after {
+    border-left: 50px solid transparent;
+    right: 0px;
+}
+.ribbon:before {
+    border-right: 50px solid transparent;
+    left: 0px;
+}
+
+   /* Video Overlay */
+
+
+   /* Video Overlay */
+
+   #title {
+   backface-visibility:hidden;
+   left:0;
+   perspective:1000;
+   position:fixed;
+   width:100%;
+   }
+
+   #title h1 {
+   background-color:rgba(0,0,0,.5);
+   font-family:"Poiret One", sans-serif;
+   font-size:2.5rem;
+   padding:1rem 1.75rem;
+   }
+
+
+   .header-videos{
+       position:relative;
+       overflow:hidden;
+
+   }
+   #hero_videos{
+       position:relative;
+       background-size:cover;
+       color:#fff;
+       font-size:16px;
+       display:table;
+       z-index:99
+   }
+   #hero_videos>div{
+       display:table-cell;
+       vertical-align:middle;
+       padding:0 10%
+   }
+   #hero_videos>div h1{
+       margin-top:70px
+   }
+   video{
+       position:absolute;
+       top:0;
+       left:0;
+
+       width:100%
+   }
+   .header-videos--media,.teaser-video{
+       width:100%;
+       height:auto
+   }
+
+   .contents{
+       position: absolute;
+       bottom: 0;
+       color: white;
+       width: 100%;
+       padding-bottom:20px;
+
+   }
+
+   .footer-trip {
+       padding: 30px 0px 30px 15px;
+       background-color: #DFDFDF;
+       position: relative;
+       width:90%;
+       overflow: hidden;
+       text-align:left;
+   }
+
+
+   .rib {
+ margin-left: 0px;
+ height: 40px;
+ width: 200px;
+ position:absolute ;
+ background: #CF1F3E;
+ color: white;
+ line-height: 40px;
+ text-align: center;
+}
+.rib:before,
+.rib:after {
+ content: "";
+ position: absolute;
+ right: -10px;
+ top: 0;
+ height: 50%;
+ width: 40px;
+ background: inherit;
+}
+.rib:before {
+ transform: skewX(-45deg);
+}
+.rib:after {
+ transform: skewX(45deg);
+ top: 50%;
+}
+.shad {
+ position: absolute;
+ height: 40px;
+ width: 20px;
+ top: 0%;
+ left: 0;
+ background: #CF1F3E;
+ transform-origin: top left;
+ transform: skewY(45deg);
+ z-index: -1;
+ box-shadow:inset 0 0 10px black;
+}
+
+   /* Style the button used to pause/play the video */
